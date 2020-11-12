@@ -1,0 +1,128 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #03a9f4;
+}
+
+nav .nav-wrapper {
+    padding: 0 50px;
+}
+
+nav .brand-logo{
+  font-family: 'Satisfy', cursive;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .header{
+    margin: 20% 0 0 0;
+  }
+
+  .header-subtitle{
+    margin: 10% 0 0 0;
+    font-size: 1.3em;
+  }
+
+  .btn-large,
+  .btn-large:hover{
+    background: #03a9f4;
+  }
+  
+  .section-intro{
+    background: url('../background1.jpg') no-repeat center / cover;
+  }
+
+  #registrazione{
+    background: url('../background2.jpg') no-repeat center / cover;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.col-servizio{
+  margin: 60px 0 100px 0;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#servizio h5{
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+
+.registrazione-icon{
+  font-size: 7em;
+  margin: 60px 0 0 0;
+}
+
+.registrazione-subtitle{
+  font-size: 1.3em;
+  margin: 5% 0 0 0;
+}
+
+.btn-registrazione{
+  width: 100%;
+}
+
+.ospita-icon{
+  font-size: 7em;
+  margin: 60px 0 0 0;
+}
+
+.ospita-subtitle{
+  font-size: 1.3em;
+  margin: 5% 0 0 0;
+  line-height: 2em;
+}
+
+.btn-ospita{
+  width: 100%;
+  margin: 2% 0 0 0;
+}
+
+footer.page-footer {
+  margin: 0;
+}
