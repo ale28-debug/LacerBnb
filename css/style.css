@@ -27,7 +27,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #03a9f4;
 }
 
 .parallax-container {
@@ -36,9 +36,11 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.section-intro{
+  height: 100%;
+  width: 100%;
+}
 
   .header{
     margin: 20% 0 0 0;
@@ -76,6 +78,11 @@ p {
   #index-banner .section {
     top: 0;
   }
+  
+  nav .nav-wrapper {
+    padding: 0 10px;
+  }
+
 }
 .col-servizio{
   margin: 60px 0 100px 0;
@@ -96,6 +103,11 @@ p {
 .registrazione-icon{
   font-size: 7em;
   margin: 60px 0 0 0;
+}
+
+.section-registrazione{
+  width: 100%;
+  height: 100%;
 }
 
 .registrazione-subtitle{
@@ -125,4 +137,15 @@ p {
 
 footer.page-footer {
   margin: 0;
+  background: #ED7D3A;
+}
+
+.social-icon{
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.social-icon:hover{
+  color: #03a9f4;
 }
